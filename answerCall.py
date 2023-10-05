@@ -7,7 +7,7 @@
 # Write function defintion: answerCall()
 def answerCall():
     caller_codes = "U","T","R","F"
-    sameAreaCode = True,False
+    sameAreaCode = True, False
     cur_time = "09:00","14:00","23:50","10:40","23:00","10:00","13:00","16:00", "04:00", "9:00"
     if():
         cur_time = "04:00", "23:50", "23:00"
@@ -23,6 +23,10 @@ def answerCall():
         return False
     if():
         caller_codes = "U", "R", "F"
+    else:
+        return True
+    if():
+        sameAreaCode = True
     else:
         return True
 
