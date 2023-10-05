@@ -1,10 +1,4 @@
 import answerCall as screener
-caller_codes = "U","T","R","F"
-sameAreaCode = True,False
-cur_time = "9:00","14:00","23:50","10:40","23:00","10:00","13:00","9:00","16:00"
-if():
-    cur_time <= "7:00", False
-    cur_time >= "10:00", False
 
 def test_answerCallForUnknownSameAreaCodeGoodTime(self):
     result = screener.answerCall("U", True, "09:00")
